@@ -1,3 +1,13 @@
+/**
+ * A chatbot program that uses the GPT-3 model to chat with users.
+ * The program prompts the user for input and sends it to the GPT-3 model for processing.
+ * The model generates a response based on the input and the chat history.
+ * The chat history is stored and updated with each user input and model response.
+ * The program continues to prompt the user for input until the user enters "exit".
+ * The program uses the openai package to interact with the GPT-3 model.
+ * The readline-sync package is used to read user input from the console.
+ * The colors package is used to add color to the console output.
+ */
 import openai from "./config/open-ai.js"
 import readlineSync from 'readline-sync'
 import colors from 'colors'
